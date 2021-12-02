@@ -33,8 +33,11 @@
              
               <p class="p__info">POR EL MOMENTO NUESTRA PLATAFORMA SE ENCUENTRA EN PROCESO DE RECONSTRUCCIÓN.<br>
                 MUY PRONTO ESTAREMOS EN LÍNEA CONTIGO</p>
+                <br>
+                <a style="display: none;" href="{{route('app.index')}}">Ir</a>
            </div>
           </div>
+         
         </div>
 
         
