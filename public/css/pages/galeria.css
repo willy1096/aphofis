@@ -1,0 +1,23 @@
+/*-------------------------------------------------
+Fuentes tipograficas
+-------------------------------------------------*/
+.galeria {
+  box-sizing: border-box;
+  padding-top: 160px;
+  padding-bottom: 80px;
+}
+@media screen and (max-width: 768px) {
+  .galeria {
+    padding-top: 100px;
+    padding-bottom: 60px;
+  }
+}
+.galeria .gallery-img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.galeria .m__tblr {
+  padding: 5px !important;
+}

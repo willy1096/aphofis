@@ -1,0 +1,36 @@
+footer {
+    background-color: $negro;
+    color: $blanco;
+    padding: 40px 0px;
+    border-top: 3px solid $orange;
+
+    .menu {
+        
+        .special {
+            display: flex;
+            align-items: center;
+        }
+
+        ul {
+            list-style: none;
+            font-size: 14px;
+            font-family: 'Kanit';
+            font-weight: 300;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        @media screen and (max-width: 768px) {
+            .mbutton{
+                margin-bottom: 20px;
+            }
+			.text-right{
+                text-align: center !important;
+            }
+			.special{
+                text-align: center;
+                display: block;
+            }
+		}
+    }
+}

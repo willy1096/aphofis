@@ -1,0 +1,68 @@
+/*-------------------------------------------------
+Fuentes tipograficas
+-------------------------------------------------*/
+.servicios {
+  box-sizing: border-box;
+  background-image: url(https://cdn.pixabay.com/photo/2016/12/17/20/05/building-1914309_960_720.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.servicios .background__efect {
+  padding-top: 160px;
+  padding-bottom: 80px;
+  width: 100%;
+  height: 100%;
+  background: #000000e0;
+}
+@media screen and (max-width: 768px) {
+  .servicios .background__efect {
+    padding-top: 100px;
+    padding-bottom: 60px;
+  }
+}
+.servicios .ul__services {
+  padding: 0px;
+  list-style: none;
+  display: flex;
+  padding: 0px 0px;
+  align-content: center;
+  align-items: center;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.servicios .li__ul {
+  margin: 10px 20px !important;
+  font-size: 16px;
+  color: white;
+}
+.servicios .li__ul:hover {
+  background: #E9C469;
+}
+.servicios .li__ul:active {
+  background: #DFA112;
+}
+.servicios .h3__subtitle {
+  color: #E9C469;
+  margin-bottom: 20px;
+}
+.servicios .h3__subtitle p {
+  color: #AABCCA;
+}
+.servicios .card__services {
+  margin-bottom: 40px;
+}
+.servicios .card__services h3 {
+  font-size: 18px;
+  color: #E9C469;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.servicios .card__services p {
+  color: #AABCCA;
+  font-size: 14px;
+  padding: 0px;
+  margin: 0px;
+}

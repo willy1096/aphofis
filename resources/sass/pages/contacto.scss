@@ -1,0 +1,55 @@
+@import '../variables';
+
+.contacto {
+    box-sizing: border-box;
+    padding-top: 160px;
+    padding-bottom: 80px;
+
+
+
+    @media screen and (max-width: 768px) {
+        padding-top: 100px;
+        padding-bottom: 60px;
+    }
+
+    &-form {
+
+        .form-control__set {
+            width: 100%;
+            padding: 8px;
+            border: none;
+            background: #DFA112;
+            color: white;
+          }
+          .form__capitalize{
+            text-transform: capitalize;
+          }
+          .form-control__set::placeholder {
+            font-size: 14px;
+            color: #000;
+          }
+
+          textarea.form-control__set{
+            min-height: 150px;
+            max-height: 150px;
+          }
+
+        .orange {
+            border: none;
+            font-size: 16px;
+            background-color: $orange;
+            padding: 8px 40px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        #mapa {
+            height: 480px;
+        }
+
+        .g-recaptcha {
+            display: flex;
+            justify-content: center;
+        }
+    }
+}

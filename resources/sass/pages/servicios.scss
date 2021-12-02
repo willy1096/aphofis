@@ -1,0 +1,77 @@
+@import '../variables';
+
+.servicios {
+    box-sizing: border-box;
+    // padding-top: 100px;
+    background-image: url(https://cdn.pixabay.com/photo/2016/12/17/20/05/building-1914309_960_720.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .background__efect{
+        padding-top:160px;
+        padding-bottom:80px;
+        width: 100%;
+        height: 100%;
+        background: #000000e0; 
+
+        @media screen and (max-width: 768px) {
+            padding-top: 100px;
+            padding-bottom: 60px;
+        }
+        
+    }
+    .ul__services{
+        padding: 0px;
+        list-style: none;
+        display: flex;
+        padding: 0px 0px;
+        align-content: center;
+        align-items: center;
+        align-self: center;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+
+    .li__ul{
+        margin: 10px 20px !important;
+        font-size: 16px;
+        color: white;
+        
+    }
+    .li__ul:hover{
+		background: $arena;
+	}
+	.li__ul:active{
+		background: $orange;
+	}
+
+    .h3__subtitle{
+        color: $arena;
+        margin-bottom: 20px;
+        
+        p{
+            color: $magenta;
+        }
+    }
+
+    .card__services{
+        margin-bottom: 40px;
+        h3{
+            font-size: 18px;
+            // font-weight: normal;
+            color: $arena;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        p{
+            color:$magenta;
+            font-size: 14px;
+            padding: 0px;
+            margin: 0px;
+        }
+    }
+    
+
+}

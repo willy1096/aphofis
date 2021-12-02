@@ -1,0 +1,355 @@
+/*-------------------------------------------------
+Fuentes tipograficas
+-------------------------------------------------*/
+.home .swiper-container1 {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  z-index: 1;
+}
+.home .swiper-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  transition-property: transform;
+  box-sizing: content-box;
+}
+.home .swiper-container1 .swiper-container-dos,
+.home .swiper-button-next,
+.home .swiper-container1 .swiper-container-dos,
+.home .swiper-button-prev {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  transform: translate(0%, -50%);
+}
+@media screen and (min-width: 768px) {
+  .home .swiper-container1 .swiper-container-dos,
+.home .swiper-button-next {
+    right: 40px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .home .swiper-container1 .swiper-container-dos,
+.home .swiper-button-prev {
+    left: 45px;
+  }
+}
+.home .swiper-container1 .swiper-container-dos,
+.home .swiper-button-next:after,
+.home .swiper-container-rtl .swiper-button-prev:after {
+  font-size: 10px;
+}
+.home .swiper-container1 .swiper-container-dos,
+.home .swiper-button-prev:after,
+.home .swiper-container-rtl .swiper-button-next:after {
+  font-size: 10px;
+}
+.home .swiper-button-prev {
+  border: 2px solid white;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+.home .swiper-button-next {
+  border: 2px solid white;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+.home .swiper-container1 .swiper-container-dos,
+.home .swiper-button-next:after,
+.home .swiper-container-rtl .swiper-button-prev:after {
+  color: white;
+  font-weight: bold;
+}
+.home .swiper-container1 .swiper-container-dos,
+.home .swiper-button-prev:after,
+.home .swiper-container-rtl .swiper-button-next:after {
+  color: white;
+  font-weight: bold;
+}
+.home .header__efect {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #000000e0;
+}
+.home .info__content_header {
+  position: absolute;
+  display: flex;
+  z-index: 2;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  text-align: center;
+}
+.home .info__content_header h2 {
+  font-weight: bold;
+  color: white;
+  font-size: 40px;
+  letter-spacing: 1.5px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-family: "Lexend Deca", sans-serif;
+}
+@media screen and (max-width: 768px) {
+  .home .info__content_header h2 {
+    font-size: 25px;
+  }
+}
+.home .info__content_header p {
+  color: white;
+  font-size: 14px;
+}
+@media screen and (max-width: 768px) {
+  .home .info__content_header p {
+    font-size: 12px;
+  }
+}
+.home-banner {
+  min-height: 300px;
+  max-height: 800px;
+  overflow: hidden;
+}
+.home-banner .bg {
+  height: 768px;
+}
+@media screen and (max-width: 1024px) {
+  .home-banner .bg {
+    height: 500px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .home-banner .bg {
+    height: auto;
+  }
+}
+.home-informacion {
+  position: relative;
+}
+.home-informacion .container-padding {
+  padding-top: 0px;
+  padding-bottom: 60px;
+}
+.home-informacion .decoration__line {
+  width: 50px;
+  height: 50px;
+  background-color: #E9C469;
+}
+.home-informacion .decoration__line__dos {
+  width: 50px;
+  height: 50px;
+  background-color: #DFA112;
+}
+.home-informacion .decoration__line__tres {
+  width: 50px;
+  height: 50px;
+  background-color: #9da0a3;
+}
+.home-informacion .decoration__line__cuatro {
+  width: 50px;
+  height: 50px;
+  background-color: #AABCCA;
+}
+.home-arquitecto .profile-card-4 {
+  max-width: 300px;
+  background-color: #FFF;
+  border-radius: 5px;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+  margin: 10px auto;
+  cursor: pointer;
+}
+.home-arquitecto .profile-card-4 img {
+  transition: all 0.25s linear;
+}
+.home-arquitecto .profile-card-4 .profile-content {
+  position: relative;
+  padding: 15px;
+  background-color: #DFA112;
+}
+.home-arquitecto .profile-card-4 .profile-name {
+  font-weight: bold;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: -70px;
+}
+.home-arquitecto .profile-card-4 .profile-name p {
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+}
+.home-arquitecto .profile-card-4 .profile-description {
+  padding: 10px;
+}
+.home-arquitecto .profile-card-4 .profile-overview {
+  padding: 15px 0px;
+}
+.home-arquitecto .profile-card-4 .profile-overview p {
+  font-size: 10px;
+  font-weight: 600;
+  color: #9da0a3;
+}
+.home-arquitecto .profile-card-4 .profile-overview h4 {
+  color: #9da0a3;
+  font-weight: bold;
+}
+.home-arquitecto .profile-card-4 .profile-content::before {
+  content: "";
+  position: absolute;
+  height: 20px;
+  top: -10px;
+  left: 0px;
+  right: 0px;
+  background-color: #DFA112;
+  z-index: 0;
+  transform: skewY(3deg);
+}
+.home-arquitecto .profile-card-4 img {
+  height: 300px;
+}
+.home-arquitecto .profile-card-4:hover img {
+  transform: rotate(5deg) scale(1.1, 1.1);
+  filter: brightness(110%);
+}
+.home-services {
+  position: relative;
+  overflow: hidden;
+  /* First border-left-width setting is a fallback */
+}
+.home-services .swiper-container-horizontal > .swiper-pagination-bullets,
+.home-services .swiper-pagination-custom,
+.home-services .swiper-pagination-fraction {
+  bottom: 0px !important;
+}
+.home-services .card-custom {
+  overflow: hidden;
+  height: 350px !important;
+  min-height: 200px;
+  box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+}
+.home-services .card-custom-img {
+  height: 200px;
+  min-height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-color: inherit;
+}
+.home-services .card-custom-img::after {
+  position: absolute;
+  content: "";
+  top: 161px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-top-width: 40px;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 545px;
+  border-left-width: calc(575px - 5vw);
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: inherit;
+}
+.home-services .card-custom-avatar img {
+  border-radius: 50%;
+  box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+  position: absolute;
+  top: 100px;
+  left: 1.25rem;
+  width: 100px;
+  height: 100px;
+}
+.home-services .card-custom-avatar .circle {
+  border-radius: 50%;
+  box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+  background: white;
+  position: absolute;
+  top: 135px;
+  left: 1.25rem;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-services .card-custom-avatar .circle > i {
+  font-size: 20px;
+}
+.home-services .card-footer {
+  background: white !important;
+  display: flex;
+  flex-wrap: wrap;
+}
+.home-services .col__background {
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.home-services .effect__l {
+  height: 300px;
+  width: 100%;
+  background: #0d0c0cea;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.home-services .effect__l h3 {
+  color: white;
+  letter-spacing: 1.2px;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.home-services .circle__icon {
+  width: 50px;
+  background: #DFA112;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.home-services .icon__size {
+  font-size: 25px;
+  color: #000000;
+}
+.home-services .effect__l:hover {
+  background-color: #0d0c0caf;
+  transition: background 2s ease;
+}
+.home-services .btn__service {
+  padding: 2px 40px;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  background: transparent;
+  border: 1px solid #DFA112;
+  color: white;
+  font-weight: normal;
+  align-self: center;
+  border-radius: 5px;
+  margin: 20px 0px;
+}
+.home-services .btn__service:hover {
+  background-color: #DFA112;
+  color: #000000;
+}
