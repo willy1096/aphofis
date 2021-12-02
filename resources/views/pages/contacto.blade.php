@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @push('link')
-    <link rel="stylesheet" href="{{mix('css/pages/contacto.css')}}">
+    <link rel="stylesheet" href="{{asset('css/pages/contacto.css')}}">
 @endpush
 
 @section('contenido')

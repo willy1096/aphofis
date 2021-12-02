@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @push('link')
-    <link rel="stylesheet" href="{{mix('css/pages/home.css')}}">
+    <link rel="stylesheet" href="{{asset('css/pages/home.css')}}">
     <link rel="stylesheet" href="{{asset('assets/swiper/swiper.min.css')}}">
     <link rel="stylesheet" href="{{asset('assets/splide/dist/css/splide.min.css')}}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
