@@ -7,19 +7,23 @@ footer {
     .menu {
         
         .special {
-            display: flex;
+            // display: flex;
             align-items: center;
+            justify-content: center;
+            text-align: center;
         }
-
+        .special__set{
+            text-align: center;
+        }
         ul {
             list-style: none;
-            font-size: 14px;
-            font-family: 'Kanit';
+            font-size: 13px;
+            font-family: $font-family-lexendDeca;
             font-weight: 300;
             margin: 0px;
             padding: 0px;
         }
-
+       
         @media screen and (max-width: 768px) {
             .mbutton{
                 margin-bottom: 20px;
@@ -33,4 +37,12 @@ footer {
             }
 		}
     }
+    .text__logo{
+        font-size: 13px;
+        font-family: $font-family-lexendDeca;
+        font-weight: 300;
+        text-transform: uppercase;
+        color: $orange;
+    }
+
 }

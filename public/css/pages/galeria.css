@@ -21,3 +21,9 @@ Fuentes tipograficas
 .galeria .m__tblr {
   padding: 5px !important;
 }
+.galeria .caption__img {
+  box-shadow: 0px 0px 2px #DFA112;
+  color: #DFA112;
+  padding-left: 15px;
+  font-size: 12px;
+}

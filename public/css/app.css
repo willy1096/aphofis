@@ -11643,7 +11643,7 @@ nav.menu-movil .sidebar-left {
   width: 100%;
   height: calc(100vh - 58px);
   z-index: 400;
-  background-color: #ffffff;
+  background-color: #000000;
   padding-top: 40px;
   padding-bottom: 40px;
   overflow: auto;
@@ -11664,6 +11664,7 @@ nav.menu-movil .sidebar-left .menu-list li > a, nav.menu-movil .sidebar-left .me
   display: block;
   padding: 10px 15px;
   opacity: 0.8;
+  color: #ffffff;
 }
 nav.menu-movil .sidebar-left .menu-list li.active > a, nav.menu-movil .sidebar-left .menu-list li.active > .dropdown > a {
   font-weight: 600;
@@ -11672,7 +11673,7 @@ nav.menu-movil .sidebar-left .menu-list li.active > a, nav.menu-movil .sidebar-l
 nav.menu-movil .sidebar-left .menu-list li .collapse a,
 nav.menu-movil .sidebar-left .menu-list li .collapsing a {
   font-size: 12px;
-  color: #000000;
+  color: #ffffff;
   font-weight: 600;
   padding: 5px 35px;
   letter-spacing: 0.89px;
@@ -11708,8 +11709,11 @@ nav.menu-escritorio {
 }
 nav.menu-escritorio #collap-proyecto {
   position: absolute;
-  background: black;
+  color: #ffffff;
   min-width: 150px;
+}
+nav.menu-escritorio #collap-proyecto a {
+  color: #ffffff;
 }
 nav.menu-escritorio ul.menu {
   display: flex;
@@ -11792,13 +11796,17 @@ footer {
   border-top: 3px solid #DFA112;
 }
 footer .menu .special {
-  display: flex;
   align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+footer .menu .special__set {
+  text-align: center;
 }
 footer .menu ul {
   list-style: none;
-  font-size: 14px;
-  font-family: "Kanit";
+  font-size: 13px;
+  font-family: "Lexend Deca", sans-serif;
   font-weight: 300;
   margin: 0px;
   padding: 0px;
@@ -11814,4 +11822,11 @@ footer .menu ul {
     text-align: center;
     display: block;
   }
+}
+footer .text__logo {
+  font-size: 13px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #DFA112;
 }

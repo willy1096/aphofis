@@ -61,6 +61,7 @@
         .ul__network .str{
             font-weight: bold;
         }
+
     </style>
     <!--[if !mso]><!-->
     <style type="text/css">
@@ -226,7 +227,7 @@
                                                 <b>¡Hola Staff!</b><br>
                                             </div>
                                             <div style="font-family:Poppins;font-size:15px;font-weight:400;line-height:26px;text-align:left;color:#000;">
-                                                <p style="margin: 0; padding: 0px;">Tienes un nuevo mensaje del sitio web:</p>
+                                                <p style="margin: 0; padding: 0px;">Tienes un nuevo mensaje del sitio web</p>
                                             </div>
 
                                         </td>
@@ -274,6 +275,44 @@
                                                 <p style="margin:0; padding:0px;">
                                                     @isset($telefono)
                                                         {{ $telefono}}
+                                                    @endisset
+                                                </p>
+                                            </div>
+
+                                            </td>
+                                            <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                                         </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+
+                                            <div style="font-family:Poppins;font-size:15px;font-weight:400;text-align:left;color:#000;">
+                                                <b style="font-weight: 600; font-size: 14px; text-transform: uppercase;">Ayuda</b>
+                                                <p style="margin:0; padding:0px;">
+                                                    @isset($helpselect)
+                                                        {{ $helpselect}}
+                                                    @endisset
+                                                </p>
+                                            </div>
+
+                                            </td>
+                                            <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                                         </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+
+                                            <div style="font-family:Poppins;font-size:15px;font-weight:400;text-align:left;color:#000;">
+                                                <b style="font-weight: 600; font-size: 14px; text-transform: uppercase;">Ubicación</b>
+                                                <p style="margin:0; padding:0px;">
+                                                    @isset($inputCity)
+                                                       Ciudad: {{$inputCity}} <br> 
+                                                    @endisset
+                                                    @isset($state)
+                                                       Estado: {{$state}} <br> 
+                                                    @endisset
+                                                    @isset($country)
+                                                       País: {{$country}}
                                                     @endisset
                                                 </p>
                                             </div>
@@ -333,7 +372,7 @@
             <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#000000;background-color:#000000;width:100%;">
                 <tbody>
                     <tr>
-                        <td style="direction:ltr;font-size:0px;padding:40px 0;stext-align:center;vertical-align:top;">
+                        <td style="direction:ltr;font-size:0px;padding:40px 0;text-align:center;vertical-align:top;">
                             <!--[if mso | IE]>
                   <table role="presentation" border="0" cellpadding="0" cellspacing="0">
                 
@@ -358,6 +397,7 @@
                                             </div>
                                         </td>
                                     </tr>
+
                                     <tr>
                                         <td>
                                             <ul class="ul__network">

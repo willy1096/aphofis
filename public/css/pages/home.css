@@ -94,7 +94,7 @@ Fuentes tipograficas
 }
 .home .info__content_header h2 {
   font-weight: bold;
-  color: white;
+  color: #DFA112;
   font-size: 40px;
   letter-spacing: 1.5px;
   margin-bottom: 20px;
@@ -161,7 +161,6 @@ Fuentes tipograficas
   background-color: #AABCCA;
 }
 .home-arquitecto .profile-card-4 {
-  max-width: 300px;
   background-color: #FFF;
   border-radius: 5px;
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
@@ -170,12 +169,32 @@ Fuentes tipograficas
   margin: 10px auto;
   cursor: pointer;
 }
+.home-arquitecto .img__k {
+  overflow: hidden;
+  background-color: #000000;
+}
+.home-arquitecto .img__k .oscured {
+  width: 100%;
+  height: 100%;
+  background: #000000ed;
+  position: absolute;
+  top: 0px;
+}
+.home-arquitecto .img__m {
+  overflow: hidden;
+  background: #DFA112;
+  border: 1px solid #DFA112;
+  color: white !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .home-arquitecto .profile-card-4 img {
+  width: 100%;
   transition: all 0.25s linear;
 }
 .home-arquitecto .profile-card-4 .profile-content {
   position: relative;
-  padding: 15px;
   background-color: #DFA112;
 }
 .home-arquitecto .profile-card-4 .profile-name {
@@ -191,7 +210,8 @@ Fuentes tipograficas
   letter-spacing: 1.5px;
 }
 .home-arquitecto .profile-card-4 .profile-description {
-  padding: 10px;
+  color: black;
+  display: none;
 }
 .home-arquitecto .profile-card-4 .profile-overview {
   padding: 15px 0px;
@@ -215,6 +235,7 @@ Fuentes tipograficas
   background-color: #DFA112;
   z-index: 0;
   transform: skewY(3deg);
+  display: none;
 }
 .home-arquitecto .profile-card-4 img {
   height: 300px;
@@ -222,6 +243,17 @@ Fuentes tipograficas
 .home-arquitecto .profile-card-4:hover img {
   transform: rotate(5deg) scale(1.1, 1.1);
   filter: brightness(110%);
+}
+.home-arquitecto .profile-card-4:hover .oscured {
+  background-color: transparent;
+  transition: background 3s ease;
+}
+.home-arquitecto .profile-card-4:hover .profile-description {
+  padding: 10px;
+  background: black;
+  color: #AABCCA;
+  display: block;
+  transition: color 0.4s ease;
 }
 .home-services {
   position: relative;

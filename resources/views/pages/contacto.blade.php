@@ -1,9 +1,7 @@
 @extends('layouts.app')
-
 @push('link')
     <link rel="stylesheet" href="{{asset('css/pages/contacto.css')}}">
 @endpush
-
 @section('contenido')
     <section class="contacto">
         <div class="contacto-form">
@@ -34,7 +32,7 @@
                                 <div class="g-recaptcha" data-sitekey="6LewdBsUAAAAAIH9Qw9hOKwRFctPddMT3u_smkoreliminar"></div>    
                             </div>
                             <div class="w-100 mb-4"></div>
-                            <div class="col-lg-6 col-md-12 col-12 align-self-center">
+                            <div class="col-lg-12 col-md-12 col-12 align-self-center text-center">
                                 <button type="submit" class="orange" id="btnsend">Enviar</button>
                             </div>
                           

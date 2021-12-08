@@ -3,9 +3,6 @@ Fuentes tipograficas
 -------------------------------------------------*/
 .servicios {
   box-sizing: border-box;
-  background-image: url(https://cdn.pixabay.com/photo/2016/12/17/20/05/building-1914309_960_720.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 .servicios .background__efect {
   padding-top: 160px;
@@ -19,6 +16,49 @@ Fuentes tipograficas
     padding-top: 100px;
     padding-bottom: 60px;
   }
+}
+.servicios .card {
+  border: none;
+  display: inline-block !important;
+  margin-bottom: 5px;
+}
+.servicios .collapsed__button {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  color: black !important;
+  border: none;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+.servicios .mb__set {
+  margin-bottom: 90px;
+}
+.servicios .card-header {
+  background-color: #DFA112;
+  color: black;
+  min-height: 95px;
+}
+@media screen and (max-width: 768px) {
+  .servicios .card-header {
+    padding: 0px;
+    min-height: auto;
+    font-size: 13px;
+  }
+}
+.servicios .card-header:hover {
+  background: #000;
+  color: white;
+  transition: background 1s ease;
+  border: 1px solid #DFA112;
+}
+.servicios .card-header:hover .collapsed__button {
+  color: #ffffff !important;
+  transition: background 1s ease;
+}
+.servicios .card-body {
+  background: black;
+  color: #AABCCA;
 }
 .servicios .ul__services {
   padding: 0px;
@@ -65,4 +105,61 @@ Fuentes tipograficas
   font-size: 14px;
   padding: 0px;
   margin: 0px;
+}
+.servicios-form .form-control__set {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  background-color: #000000;
+  border-bottom: 3px solid #DFA112;
+  color: white;
+}
+.servicios-form .form__capitalize {
+  text-transform: capitalize;
+}
+.servicios-form .form-control__set::-moz-placeholder {
+  font-size: 14px;
+  color: #AABCCA;
+}
+.servicios-form .form-control__set:-ms-input-placeholder {
+  font-size: 14px;
+  color: #AABCCA;
+}
+.servicios-form .form-control__set::placeholder {
+  font-size: 14px;
+  color: #AABCCA;
+}
+.servicios-form textarea.form-control__set {
+  min-height: 150px;
+  max-height: 150px;
+}
+.servicios-form .orange {
+  border: none;
+  font-size: 16px;
+  background-color: #DFA112;
+  padding: 8px 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.servicios-form #mapa {
+  height: 480px;
+}
+.servicios-form .g-recaptcha {
+  display: flex;
+  justify-content: center;
+}
+.servicios-form label.label__form {
+  color: #AABCCA !important;
+  text-transform: capitalize;
+}
+.servicios-form small.small__form {
+  color: #AABCCA !important;
+}
+.servicios-form .form-control-file {
+  background-color: #DFA112;
+  color: #000000 !important;
+}
+.servicios .text__info__p {
+  font-size: 14px;
+  color: #AABCCA;
 }

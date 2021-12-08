@@ -41,7 +41,7 @@
                     if( elemento != null ) {
                       
                         $(window).scroll(function() {
-                            if ($(this).scrollTop() > 600) {
+                            if ($(this).scrollTop() > 200) {
                                 elemento.classList.add('header-color');
                             } else {
                                     elemento.classList.remove('header-color');

@@ -15,11 +15,15 @@ use App\Http\Controllers\Web\AppController;
 */
 
 Route::get('/', [AppController::class,'redire'])->name('app.redire');
-Route::get('/affere_test/dev/', [AppController::class,'index'])->name('app.index');
-Route::get('/affere_test/dev/inicio', [AppController::class,'index'])->name('app.nosotros');
-Route::get('/affere_test/dev/contacto', [AppController::class,'contacto'])->name('app.contacto');
-Route::get('/affere_test/dev/servicios', [AppController::class,'servicios'])->name('app.servicios');
 
-Route::get('/affere_test/dev/galeria', [AppController::class,'galeria'])->name('app.galeria');
-Route::get('/affere_test/dev/correo', [AppController::class,'correo'])->name('app.correo');
-Route::post('/send/mail', [AppController::class,'mail__send'])->name('app.mail.send');
+Route::prefix('/affare_test/dev/')->group(function () {
+    Route::get('/', [AppController::class,'index'])->name('app.index');
+    Route::get('inicio', [AppController::class,'index'])->name('app.nosotros');
+    Route::get('contacto', [AppController::class,'contacto'])->name('app.contacto');
+    Route::get('servicios', [AppController::class,'servicios'])->name('app.servicios');
+
+    Route::get('galeria', [AppController::class,'galeria'])->name('app.galeria');
+    Route::get('correo', [AppController::class,'correo'])->name('app.correo');
+    Route::post('/send/mail', [AppController::class,'mail__send'])->name('app.mail.send');
+    Route::post('/send/mail/servicios', [AppController::class,'mail__sendServicios'])->name('app.mail.servicios');
+});

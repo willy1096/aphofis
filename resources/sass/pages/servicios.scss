@@ -2,10 +2,9 @@
 
 .servicios {
     box-sizing: border-box;
-    // padding-top: 100px;
-    background-image: url(https://cdn.pixabay.com/photo/2016/12/17/20/05/building-1914309_960_720.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    // background-image: url(https://cdn.pixabay.com/photo/2016/12/17/20/05/building-1914309_960_720.jpg);
+    // background-size: cover;
+    // background-repeat: no-repeat;
 
     .background__efect{
         padding-top:160px;
@@ -20,6 +19,51 @@
         }
         
     }
+    .card{
+        // border-bottom: 1px solid white !important
+        border:none;
+        display: inline-block !important;
+        margin-bottom: 5px;
+    }
+    .collapsed__button{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        color: black !important;
+        border:none;
+        text-decoration: none;
+        margin-bottom: 10px;
+    }
+    .mb__set{
+        margin-bottom: 90px;
+    }
+    .card-header{
+        background-color: $orange;
+        color: black;
+        min-height: 95px;
+        @media screen and (max-width: 768px) {
+            padding:0px;
+            min-height: auto;
+            font-size: 13px;
+        }
+    }
+    .card-header:hover{
+        background: #000;
+        color: white;
+        transition: background 1s ease;
+        border: 1px solid $orange;
+    }
+    .card-header:hover .collapsed__button{
+        color: $blanco !important;
+        transition: background 1s ease;
+      
+    }
+    .card-body{
+        background: black;
+        color: $magenta;
+    }
+
+
     .ul__services{
         padding: 0px;
         list-style: none;
@@ -55,6 +99,7 @@
             color: $magenta;
         }
     }
+    
 
     .card__services{
         margin-bottom: 40px;
@@ -71,6 +116,66 @@
             padding: 0px;
             margin: 0px;
         }
+    }
+
+    &-form {
+        .form-control__set {
+            width: 100%;
+            padding: 8px;
+            border: none;
+            background-color: $negro;
+            // background: $orange;
+            border-bottom: 3px solid $orange;
+            color: white;
+          }
+          .form__capitalize{
+            text-transform: capitalize;
+          }
+          .form-control__set::placeholder {
+            font-size: 14px;
+            color: $magenta;
+          }
+
+          textarea.form-control__set{
+            min-height: 150px;
+            max-height: 150px;
+          }
+
+        .orange {
+            border: none;
+            font-size: 16px;
+            background-color: $orange;
+            padding: 8px 40px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        #mapa {
+            height: 480px;
+        }
+
+        .g-recaptcha {
+            display: flex;
+            justify-content: center;
+        }
+
+        label.label__form {
+            color: $magenta !important;
+            text-transform: capitalize;
+        }
+        small.small__form{
+            color: $magenta !important;
+        }
+        .form-control-file{
+            background-color: $orange;
+            color: $negro !important;
+        }
+        
+    }
+    
+    .text__info__p{
+        font-size: 14px;
+        color: $magenta;
     }
     
 

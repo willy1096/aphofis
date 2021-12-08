@@ -17,22 +17,27 @@
         .form-control__set {
             width: 100%;
             padding: 8px;
+            // border: none;
+            // background: #DFA112;
             border: none;
-            background: #DFA112;
+            background-color: $negro;
+            border-bottom: 3px solid $orange;
             color: white;
-          }
-          .form__capitalize{
-            text-transform: capitalize;
-          }
-          .form-control__set::placeholder {
-            font-size: 14px;
-            color: #000;
-          }
+        }
 
-          textarea.form-control__set{
+        .form__capitalize {
+            text-transform: capitalize;
+        }
+
+        .form-control__set::placeholder {
+            font-size: 14px;
+            color:$magenta;
+        }
+
+        textarea.form-control__set {
             min-height: 150px;
             max-height: 150px;
-          }
+        }
 
         .orange {
             border: none;
@@ -51,5 +56,7 @@
             display: flex;
             justify-content: center;
         }
+
+       
     }
 }

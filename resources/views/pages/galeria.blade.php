@@ -16,61 +16,24 @@
               </div>
               <div class="row">
                   <div class="col-12">
-                      
                       <div class="row flex flex-wrap justify-content-start "  data-aos="zoom-in-down" data-aos-duration="4000">
-
                         @for ($i = 1; $i < 97; $i++)
                             @if ($i%5 ==0)
                                     <div class="col-12 col-lg-8 col-md-8 m-0 m__tblr">
-                                        <a data-fancybox="gallery" href="{{asset('img/pinturas/DBAU_page86_image'.$i.'.jpg')}}">
+                                        <a data-fancybox="gallery" data-caption="Title {{$i}}" href="{{asset('img/pinturas/DBAU_page86_image'.$i.'.jpg')}}">
                                             <img class="imf-fluid gallery-img" src="{{asset('img/pinturas/DBAU_page86_image'.$i.'.jpg')}}" />
                                         </a>
+                                        <p class="caption__img">Title {{$i}} </p>
                                     </div>
-                                {{-- <div class="col-12 col-lg-3 col-md-6 m-0 m__tblr">
-                                    <a data-fancybox="gallery" href="{{asset('img/pinturas/DBAU_page86_image'.$i.'.jpg')}}">
-                                        <img class="imf-fluid gallery-img" src="{{asset('img/pinturas/DBAU_page86_image'.$i.'.jpg')}}" />
-                                    </a>
-                                </div> --}}
-                            {{-- @elseif($i* % 6 ==0)
-                                <div class="col-12 col-lg-8 col-md-8 m-0 m__tblr">
-                                    <a data-fancybox="gallery" href="{{asset('img/pinturas/DBAU_page86_image'.$i.'.jpg')}}">
-                                        <img class="imf-fluid gallery-img" src="{{asset('img/pinturas/DBAU_page86_image'.$i.'.jpg')}}" />
-                                    </a>
-                                </div> --}}
                             @else
                                 <div class="col-12 col-lg-4 col-md-4 m-0 m__tblr">
-                                    <a data-fancybox="gallery" href="{{asset('img/pinturas/DBAU_page86_image'.$i.'.jpg')}}" rel="group1">
+                                    <a data-fancybox="gallery" data-caption="Title {{$i}}" href="{{asset('img/pinturas/DBAU_page86_image'.$i.'.jpg')}}">
                                         <img class="imf-fluid gallery-img" src="{{asset('img/pinturas/DBAU_page86_image'.$i.'.jpg')}}" />
                                     </a>
+                                    <p class="caption__img">Title {{$i}} </p>
                                 </div>
                             @endif
-                            
                         @endfor
-
-                       
-                        
-                        {{-- <div class="col-12 col-lg-3 col-md-6 m-0 m__tblr">
-                            <a data-fancybox="gallery" href="https://cdn.pixabay.com/photo/2016/11/13/12/52/kuala-lumpur-1820944__340.jpg">
-                                <img class="imf-fluid gallery-img" src="https://cdn.pixabay.com/photo/2016/11/13/12/52/kuala-lumpur-1820944__340.jpg" />
-                            </a>
-                        </div>
-                        
-                        <div class="col-12 col-lg-3 col-md-6 m-0 m__tblr">
-                            <a data-fancybox="gallery" href="https://lipsum.app/id/81/1600x1200">
-                                <img class="imf-fluid gallery-img" src="https://lipsum.app/id/81/1600x1200" />
-                            </a>
-                        </div>
-                        
-                        <div class="col-12 col-lg-6 col-md-6 m-0 m__tblr">
-                            <a data-fancybox="gallery" href="https://lipsum.app/id/73/1600x1200">
-                                <img class="imf-fluid gallery-img" src="https://lipsum.app/id/73/1600x1200" />
-                            </a>
-                        </div> --}}
-
-                     
-
-                        
-                        
                       </div>
                   </div>
               </div>

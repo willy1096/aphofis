@@ -17,13 +17,13 @@
     <div class="sidebar-left">
         <ul class="menu-list">
             <li class="text-uppercase"><a class="{{Request::routeIs('app.index') ? 'orange' : ''}}" href="{{route('app.index')}}">Inicio</a></li>
-            <li class="text-uppercase"><a class="{{Request::routeIs('app.galeria') ? 'orange' : ''}}" href="{{route('app.galeria')}}">Galería</a></li>
+            {{-- <li class="text-uppercase"><a class="{{Request::routeIs('app.galeria') ? 'orange' : ''}}" href="{{route('app.galeria')}}">Galería</a></li> --}}
             <li class="text-uppercase"><a class="{{Request::routeIs('app.nosotros') ? 'orange' : ''}}" href="{{route('app.nosotros',['#appNosotros'])}}">Nosotros</a></li>
             <li class="text-uppercase"><a class="{{Request::routeIs('app.servicios') ? 'orange' : ''}}" href="{{route('app.servicios')}}">Servicios</a></li>
             <li class="text-uppercase ">
                 <a data-toggle="collapse" href="#collap-proyecto" role="button" aria-expanded="false" aria-controls="collap-proyecto" class="static-menu dropdown-toggle">Proyectos</a>
                 <div class="collapse" id="collap-proyecto">
-                    <a class="d-block" href="#">Option primero</a>
+                    <a class="{{Request::routeIs('app.galeria') ? 'orange' : ''}}" href="{{route('app.galeria')}}">Galería</a>
                     <a class="d-block" href="#">Option</a>
                 </div>
             </li>
@@ -42,22 +42,23 @@
         <div class="row align-items-center">
             <div class="col-md-12 col-xl-12">
                 <ul class="list-unstyled mb-0 menu">
-                    <li class="text-uppercase"><a class="{{Request::routeIs('app.index') ? 'orange' : ''}}" href="{{route('app.index')}}">Inicio</a></li>
-                    <li class="text-uppercase"><a class="{{Request::routeIs('app.galeria') ? 'orange' : ''}}" href="{{route('app.galeria')}}">Galería</a></li>
+                    {{-- <li class="text-uppercase"><a class="{{Request::routeIs('app.index') ? 'orange' : ''}}" href="{{route('app.index')}}">Inicio</a></li> --}}
+                    {{-- <li class="text-uppercase"><a class="{{Request::routeIs('app.galeria') ? 'orange' : ''}}" href="{{route('app.galeria')}}">Galería</a></li> --}}
+                    <li class="text-uppercase ">
+                        <a data-toggle="collapse" href="#collap-proyecto" role="button" aria-expanded="false" aria-controls="collap-proyecto" class="static-menu dropdown-toggle">Proyectos</a>
+                        <div class="collapse" id="collap-proyecto">
+                            <a class="{{Request::routeIs('app.galeria') ? 'orange' : ''}}" href="{{route('app.galeria')}}">Galería</a>
+                            <a class="d-block" href="#">Option</a>
+                        </div>
+                    </li>
                     <li class="text-uppercase"><a class="{{Request::routeIs('app.nosotros') ? 'orange' : ''}}" href="{{route('app.nosotros',['#appNosotros'])}}">Nosotros</a></li>
                     <li class="text-uppercase">
-                        <a href="">
+                        <a href="{{route('app.index')}}">
                             <img src="{{ asset('img/logos/size/AphofisHorizontalBlanco.png') }}" alt="logo" class="logo" width="250px;">
                         </a>
                     </li>
                     <li class="text-uppercase"><a class="{{Request::routeIs('app.servicios') ? 'orange' : ''}}" href="{{route('app.servicios')}}">Servicios</a></li>
-                    <li class="text-uppercase ">
-                        <a data-toggle="collapse" href="#collap-proyecto" role="button" aria-expanded="false" aria-controls="collap-proyecto" class="static-menu dropdown-toggle">Proyectos</a>
-                        <div class="collapse" id="collap-proyecto">
-                            <a class="d-block" href="#">Option primero</a>
-                            <a class="d-block" href="#">Option</a>
-                        </div>
-                    </li>
+                  
                     <li class="text-uppercase"><a class="{{Request::routeIs('app.contacto') ? 'orange' : ''}}" href="{{route('app.contacto')}}">Contacto</a></li>
                 </ul>
             </div>

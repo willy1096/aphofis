@@ -13,8 +13,14 @@
         {{-- Banner --}}
         <div class="swiper-container1 home-banner">
             <div class="info__content_header">
-                <h2 data-aos="fade-up" data-aos-duration="8000">Hola mundo</h2>
-                <p data-aos="fade-up" data-aos-duration="8000">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, quam!<br>Eum doloribus rem veniam debitis quis</p>
+                <h2 data-aos="fade-up" data-aos-duration="8000">Aphofis</h2>
+                <p data-aos="fade-up" data-aos-duration="8000">
+                    Arquitectura y diseño como jamás habías visto. <br>
+                    Construye el futuro que quieres ver (en el que quieres vivir). <br>
+                    Tus ideas nuestra pasión, construye un futuro con Aphofis. <br>
+                    Convertimos espacios en auténticas obras de arte, descubre como. <br>
+                    Conoce Aphofis y cambia para siempre la forma en la que ves tus proyectos.
+                </p>
             </div>
             <div class="line___bar">
                 <div class="container-fluid">
@@ -40,8 +46,9 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="header__efect"> </div>
-                    <div class="bg home-banner" style="background-image: url('https://cdn.pixabay.com/photo/2017/09/18/16/36/building-2762319_960_720.jpg')">
-                        <img src="https://cdn.pixabay.com/photo/2017/09/18/16/36/building-2762319_960_720.jpg" alt="Slider-">
+                    <div class="bg home-banner" style="background-image: url('https://cdn.pixabay.com/photo/2020/11/05/23/16/city-5716456_960_720.jpg')">
+                        {{-- <iframe src="https://www.youtube.com/embed/bo9Z_pgByQY?rel=0&amp;autoplay=1&mute=1&loop=1;" width="100%" height="768" frameborder="0" allowfullscreen></iframe> --}}
+                        <img src="https://cdn.pixabay.com/photo/2020/11/05/23/16/city-5716456_960_720.jpg" alt="Slider-">
                     </div>
                 </div>
                 <div class="swiper-slide">
@@ -71,10 +78,12 @@
                               <div class="row justify-content-center">
                                   <div class="col-12 col-lg-12 col-md-11">
                                     <h2 class="h2__tlo">Nosotros</h2>
-                                    <p class="p__info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, placeat dolore ab commodi veniam vero eveniet blanditiis dicta accusantium itaque error dolores tempore rem aliquid! Facere, nihil? Iusto, soluta nam!
-                                    Cupiditate, exercitationem magnam. Assumenda natus provident itaque nesciunt! Exercitationem deleniti accusantium quam voluptatibus eius eos nisi itaque, laboriosam recusandae doloribus? Dolorem non libero repellendus cupiditate corrupti! Tempore error amet quae.
-                                    Temporibus autem obcaecati eum, voluptate laudantium est vero veritatis! Non possimus tenetur qui illo alias eius exercitationem consequatur nihil, voluptatem delectus vel. Suscipit autem in quo doloribus quasi animi commodi?
-                                    Qui ad non quam deserunt, natus tenetur quae voluptas praesentium veniam! Officia ipsum quibusdam minus sunt. Modi quas perspiciatis, laudantium quo, explicabo optio quae minus rem temporibus nulla, nemo facere.</p>
+                                    <p class="p__info">
+                                        Aphofis es una compañía afiliada a Grupo Tikal, enfocada en ofrecer soluciones creativas e innovadoras en arquitectura y diseño. Se busca siempre ofrecer proyectos que estén a la vanguardia, usando las mejores tecnologías y respetando el medio ambiente.
+                                    </p>
+                                    <p class="p__info">
+                                        En Aphofis no hacemos una simple construcción, ya que vemos en la arquitectura una forma de expresión artística. Diseñamos estrategias a partir de las distintas formas de habitar, por lo que nos caracterizamos por ofrecer soluciones únicas antes problemas específicos.
+                                    </p>
                                   </div>
                               </div>
                             </div>
@@ -101,16 +110,18 @@
         <?php
             $arquitecto = array(
                 [ 
-                    "name"=>"John Doe",
+                    "name"=>"Arq. Luis Estrada Salazar",
                     "url" =>"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.JF8y6azJIJ0r9w9Ho4Og-wHaE7%26pid%3DApi&f=1",
-                    "info"=>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates cum, aliquam quo pariatur ipsa ullam alias optio veniam suscipit atque sint necessitatibus esse totam modi molestias, nostrum tempore, est eveniet.",
-                    "mail"=>'ejemplo@service.com'
+                    "info"=>"Licenciado por la Universidad Veracruzana con una especialidad en Diseño Industrial en la Facultad de Arquitectura, Diseño y Urbanismo (Fadu) en Buenos Aires, Argentina.<br>
+                    Cuenta con múltiples artículos y capítulos de libros especializados en arquitectura, así como ponencias en diversos estados del país, así como en la Universidad de Chiba en Japón. Además de estar involucrado en el desarrollo y supervisión de obra, de más de 350 proyectos de vivienda residencial y comercial en Xalapa, Veracruz y Puebla.",
+                    "mail"=>''
                 ],
                 [ 
-                    "name"=>"John Doe",
+                    "name"=>"Arq. Brahim Abdaly Bautista",
                     "url" =>"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.8ZTGNmcyDgN3YX7ciH0ovgHaEL%26pid%3DApi&f=1",
-                    "info"=>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates cum, aliquam quo pariatur ipsa ullam alias optio veniam suscipit atque sint necessitatibus esse totam modi molestias, nostrum tempore, est eveniet.",
-                    "mail"=>'ejemplo@service.com'
+                    "info"=>"Arq. Brahim Abdaly Bautista, graduado de la Universidad Veracruzana con una maestría en la Universidad Cristóbal Colón.<br>
+                    Sus escritos se han publicado en más de 20 revistas especializadas y ha impartido ponencias en Universidades nacionales e internacionales, además ha sido galardonado con más de una docena de premios, entre los que destaca el premio Primea Bienal de Arquitectura del Golfo.",
+                    "mail"=>''
                 ],
             );
         ?>
@@ -127,15 +138,21 @@
                     </div>
                     <div class="row justify-content-center text-center">
                         @foreach ($arquitecto as $key=>$item)
-                            <div class="col-md-4">
+                            <div class="col-md-6">
                                 <div class="profile-card-4 text-center">
-                                    <img src="{{$item['url']}}" class="img img-responsive">
-                                    <div class="profile-content">
-                                        <div class="profile-name p__info__h4">{{$item['name']}}
-                                            <p>{{$item['mail']}}</p>
+                                        <div class="row">
+                                            <div class="col-4 img__m p__info__h4">{{$item['name']}}</div>
+                                            <div class="col-8 img__k p-0">
+                                                <img src="{{$item['url']}}" class="img img-responsive">
+                                                <div class="oscured"></div>
+                                            </div>
+                                            
                                         </div>
+                                    <div class="profile-content">
+                                        {{-- <div class="profile-name p__info__h4">{{$item['name']}}
+                                        </div> --}}
                                         <div class="profile-description p__info__small">
-                                            {{$item['info']}}
+                                            {!! $item['info'] !!}
                                         </div>
                                     </div>
                                 </div>
@@ -148,56 +165,42 @@
                 </div>
             </div>
         </div>
-     
         <?php
-            $services = array(
-                [
-                    "title"=>"Formulario",
-                    "url1" =>"https://cdn.pixabay.com/photo/2016/11/13/12/52/kuala-lumpur-1820944__340.jpg",
-                    "url2   "=>'ejemplo@service.com',
-                    "info"=>"",
-                    "icon"=>"fa-check-square-o"
-                ],
-                [ 
-                    "title"=>"Diseño Arquitectónico",
-                    "url1" =>"https://cdn.pixabay.com/photo/2017/02/20/19/29/architecture-2083687__340.jpg",
-                    "url2   "=>'ejemplo@service.com',
-                    "info"=>"",
-                    "icon"=>"fa-building-o"
-                ],
-                [ 
-                    "title"=>"Remodelación",
-                    "url1" =>"https://cdn.pixabay.com/photo/2021/08/02/20/35/architecture-6517841__340.jpg",
-                    "url2   "=>'ejemplo@service.com',
-                    "info"=>"",
-                    "icon"=>"fa-ravelry"
-                ],
-                [ 
-                    "title"=>"Interiorismo",
-                    "url1" =>"https://cdn.pixabay.com/photo/2016/12/17/20/05/building-1914309__340.jpg",
-                    "url2   "=>'ejemplo@service.com',
-                    "info"=>"",
-                    "icon"=>"fa-ioxhost"
-                ],
-                [ 
-                    "title"=>"Apliación",
-                    "url1" =>"https://cdn.pixabay.com/photo/2016/11/08/05/01/airplane-1807486__340.jpg",
-                    "url2   "=>'ejemplo@service.com',
-                    "info"=>"",
-                    "icon"=>"fa-arrows-alt"
-                ],
-                [ 
-                    "title"=>"Restauración",
-                    "url1" =>"https://cdn.pixabay.com/photo/2016/11/08/05/01/airplane-1807486__340.jpg",
-                    "url2   "=>'ejemplo@service.com',
-                    "info"=>"",
-                    "icon"=>"fa-undo"
-                ],
-            
-            );
-
-           
-        ?>
+        $services = array(
+                       
+             [ 
+                 "title"=>"Diseño Arquitectónico",
+                 "url1" =>"https://cdn.pixabay.com/photo/2017/02/20/19/29/architecture-2083687__340.jpg",
+                 "url2   "=>'ejemplo@service.com',
+                 "info"=>"",
+                 "icon"=>"fa-building-o"
+             ],
+             [ 
+                 "title"=>"Construción",
+                 "url1" =>"https://cdn.pixabay.com/photo/2021/08/02/20/35/architecture-6517841__340.jpg",
+                 "url2   "=>'ejemplo@service.com',
+                 "info"=>"",
+                 "icon"=>"fa-ravelry"
+             ],
+         
+             [ 
+                 "title"=>"Gestoría y Consultoría de la Construcción",
+                 "url1" =>"https://cdn.pixabay.com/photo/2016/11/08/05/01/airplane-1807486__340.jpg",
+                 "url2   "=>'ejemplo@service.com',
+                 "info"=>"",
+                 "icon"=>"fa-arrows-alt"
+             ],
+             [ 
+                 "title"=>"Investigación y Consultoría de Proyectos, Sostenibilidad y Diseño Bioclimático",
+                 "url1" =>"https://cdn.pixabay.com/photo/2016/11/08/05/01/airplane-1807486__340.jpg",
+                 "url2   "=>'ejemplo@service.com',
+                 "info"=>"",
+                 "icon"=>"fa-undo"
+             ],
+       
+         );
+       
+       ?>
        
        {{-- servicios --}}
        <div class="home-services padding__tb" id="appServices" data-aos="zoom-in-down" data-aos-duration="4000">
@@ -253,7 +256,8 @@
 
                 <div class="row">
                     @foreach ($services as $key => $item)
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-12 p-0 col__background" style="background-image: url({{$item['url1']}})">
+
+                        <div class="{{ $key == 3 ? 'col-12' : 'col-lg-4  col-md-4 col-sm-6 col-12'}} p-0 col__background" style="background-image: url({{$item['url1']}})">
                             <div class="effect__l">
                                 <div class="circle__icon"><i class="fa {{$item['icon']}} icon__size" aria-hidden="true"></i></div>
                                 <h3>{{$item['title']}}</h3>
@@ -264,10 +268,11 @@
                 </div>
             </div>
        </div>
+       
        {{-- <div class="line__all"></div>
        <div class="line__all__cuadrado"></div>
        <div class="line__all__small"></div> --}}
-
+       <div id="muteYouTubeVideoPlayer"></div>
     </section>
 @endsection
 
@@ -278,7 +283,6 @@
     {{-- <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script> --}}
     {{-- <script type="text/javascript" src='https://www.google.com/recaptcha/api.js?hl=es'></script> --}}
     {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script> --}}
-    
     <script>
         var sw3 = new Swiper('.swiper-container1', {
             slidesPerView: 1,

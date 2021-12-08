@@ -16,7 +16,8 @@ Fuentes tipograficas
   width: 100%;
   padding: 8px;
   border: none;
-  background: #DFA112;
+  background-color: #000000;
+  border-bottom: 3px solid #DFA112;
   color: white;
 }
 .contacto-form .form__capitalize {
@@ -24,15 +25,15 @@ Fuentes tipograficas
 }
 .contacto-form .form-control__set::-moz-placeholder {
   font-size: 14px;
-  color: #000;
+  color: #AABCCA;
 }
 .contacto-form .form-control__set:-ms-input-placeholder {
   font-size: 14px;
-  color: #000;
+  color: #AABCCA;
 }
 .contacto-form .form-control__set::placeholder {
   font-size: 14px;
-  color: #000;
+  color: #AABCCA;
 }
 .contacto-form textarea.form-control__set {
   min-height: 150px;
