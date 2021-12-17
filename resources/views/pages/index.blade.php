@@ -17,19 +17,19 @@
                     'img' => 'https://cdn.pixabay.com/photo/2020/11/05/23/16/city-5716456_960_720.jpg',
                 ],
                 [
-                    'frase' => 'Construye el futuro que quieres ver (en el que quieres vivir).',
+                    'frase' => 'Construye el futuro que quieres ver <br> (en el que quieres vivir).',
                     'img' => 'https://cdn.pixabay.com/photo/2017/06/30/12/10/shipyard-2458150_960_720.jpg',
                 ],
                 [
-                    'frase' => 'Tus ideas nuestra pasión, construye un futuro con Aphofis.',
+                    'frase' => 'Tus ideas nuestra pasión,<br> construye un futuro con Aphofis.',
                     'img' => 'https://cdn.pixabay.com/photo/2015/12/03/01/05/architect-1073607_960_720.jpg',
                 ],
                 [
-                    'frase' => 'Convertimos espacios en auténticas obras de arte, descubre como.',
-                    'img' => 'https://cdn.pixabay.com/photo/2015/12/03/00/58/architect-1073599_960_720.jpg',
+                    'frase' => 'Convertimos espacios en auténticas obras de arte,<br> descubre como.',
+                    'img' => 'https://cdn.pixabay.com/photo/2018/05/26/13/08/construction-3431327_960_720.jpg',
                 ],
                 [
-                    'frase' => 'Conoce Aphofis y cambia para siempre la forma en la que ves tus proyectos.',
+                    'frase' => 'Conoce Aphofis y cambia para siempre la forma en la que ves<br> tus proyectos.',
                     'img' => 'https://cdn.pixabay.com/photo/2020/11/05/23/16/city-5716456_960_720.jpg',
                 ]
 
@@ -75,7 +75,7 @@
 
                         <div class="header__efect">
                             <p data-aos="fade-up" data-aos-duration="8000">
-                                {{$item['frase']}}
+                                {!! $item['frase'] !!}
                             </p>
                         </div>
                         <div class="bg home-banner" style="background-image: url({{$item['img']}})">
