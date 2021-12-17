@@ -79,6 +79,25 @@ Fuentes tipograficas
   width: 100%;
   height: 100%;
   background: #000000e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home .header__efect p {
+  color: #ffffff;
+  padding: 0px 45px;
+  font-size: 30px;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .home .header__efect p {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .home .header__efect p {
+    font-size: 14px;
+  }
 }
 .home .info__content_header {
   position: absolute;
@@ -143,7 +162,7 @@ Fuentes tipograficas
 .home-informacion .decoration__line {
   width: 50px;
   height: 50px;
-  background-color: #E9C469;
+  background-color: #b9b3a2;
 }
 .home-informacion .decoration__line__dos {
   width: 50px;
@@ -172,13 +191,6 @@ Fuentes tipograficas
 .home-arquitecto .img__k {
   overflow: hidden;
   background-color: #000000;
-}
-.home-arquitecto .img__k .oscured {
-  width: 100%;
-  height: 100%;
-  background: #000000ed;
-  position: absolute;
-  top: 0px;
 }
 .home-arquitecto .img__m {
   overflow: hidden;
@@ -239,10 +251,6 @@ Fuentes tipograficas
 }
 .home-arquitecto .profile-card-4 img {
   height: 300px;
-}
-.home-arquitecto .profile-card-4:hover img {
-  transform: rotate(5deg) scale(1.1, 1.1);
-  filter: brightness(110%);
 }
 .home-arquitecto .profile-card-4:hover .oscured {
   background-color: transparent;

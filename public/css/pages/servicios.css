@@ -79,13 +79,13 @@ Fuentes tipograficas
   color: white;
 }
 .servicios .li__ul:hover {
-  background: #E9C469;
+  background: #b9b3a2;
 }
 .servicios .li__ul:active {
   background: #DFA112;
 }
 .servicios .h3__subtitle {
-  color: #E9C469;
+  color: #b9b3a2;
   margin-bottom: 20px;
 }
 .servicios .h3__subtitle p {
@@ -96,7 +96,7 @@ Fuentes tipograficas
 }
 .servicios .card__services h3 {
   font-size: 18px;
-  color: #E9C469;
+  color: #b9b3a2;
   margin-bottom: 20px;
   font-weight: bold;
 }

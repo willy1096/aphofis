@@ -10,9 +10,34 @@
 @section('contenido')
     <section class="home">
      
+        <?php
+            $slider = array(
+                [
+                    'frase' => 'Arquitectura y diseño como jamás habías visto.',
+                    'img' => 'https://cdn.pixabay.com/photo/2020/11/05/23/16/city-5716456_960_720.jpg',
+                ],
+                [
+                    'frase' => 'Construye el futuro que quieres ver (en el que quieres vivir).',
+                    'img' => 'https://cdn.pixabay.com/photo/2017/06/30/12/10/shipyard-2458150_960_720.jpg',
+                ],
+                [
+                    'frase' => 'Tus ideas nuestra pasión, construye un futuro con Aphofis.',
+                    'img' => 'https://cdn.pixabay.com/photo/2015/12/03/01/05/architect-1073607_960_720.jpg',
+                ],
+                [
+                    'frase' => 'Convertimos espacios en auténticas obras de arte, descubre como.',
+                    'img' => 'https://cdn.pixabay.com/photo/2015/12/03/00/58/architect-1073599_960_720.jpg',
+                ],
+                [
+                    'frase' => 'Conoce Aphofis y cambia para siempre la forma en la que ves tus proyectos.',
+                    'img' => 'https://cdn.pixabay.com/photo/2020/11/05/23/16/city-5716456_960_720.jpg',
+                ]
+
+            );    
+        ?>
         {{-- Banner --}}
         <div class="swiper-container1 home-banner">
-            <div class="info__content_header">
+            {{-- <div class="info__content_header">
                 <h2 data-aos="fade-up" data-aos-duration="8000">Aphofis</h2>
                 <p data-aos="fade-up" data-aos-duration="8000">
                     Arquitectura y diseño como jamás habías visto. <br>
@@ -21,8 +46,8 @@
                     Convertimos espacios en auténticas obras de arte, descubre como. <br>
                     Conoce Aphofis y cambia para siempre la forma en la que ves tus proyectos.
                 </p>
-            </div>
-            <div class="line___bar">
+            </div> --}}
+            {{-- <div class="line___bar">
                 <div class="container-fluid">
                     <div class="row justify-content-center text-center align-items-center">
                         <div class="col-lg-3 col-md-4 col-4 p-0">
@@ -41,22 +66,29 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
 
             <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="header__efect"> </div>
-                    <div class="bg home-banner" style="background-image: url('https://cdn.pixabay.com/photo/2020/11/05/23/16/city-5716456_960_720.jpg')">
-                        {{-- <iframe src="https://www.youtube.com/embed/bo9Z_pgByQY?rel=0&amp;autoplay=1&mute=1&loop=1;" width="100%" height="768" frameborder="0" allowfullscreen></iframe> --}}
-                        <img src="https://cdn.pixabay.com/photo/2020/11/05/23/16/city-5716456_960_720.jpg" alt="Slider-">
+              
+                @foreach ($slider as $item)
+                    <div class="swiper-slide">
+
+                        <div class="header__efect">
+                            <p data-aos="fade-up" data-aos-duration="8000">
+                                {{$item['frase']}}
+                            </p>
+                        </div>
+                        <div class="bg home-banner" style="background-image: url({{$item['img']}})">
+                            <img src="{{$item['img']}}" a   lt="Slider-">
+                        </div>
                     </div>
-                </div>
-                <div class="swiper-slide">
+                @endforeach
+                {{-- <div class="swiper-slide">
                     <div class="header__efect"> </div>
                     <div class="bg home-banner" style="background-image: url('https://cdn.pixabay.com/photo/2017/06/30/12/10/shipyard-2458150_960_720.jpg')">
                         <img src="https://cdn.pixabay.com/photo/2017/06/30/12/10/shipyard-2458150_960_720.jpg" alt="Slider-">
                     </div>
-                </div>
+                </div> --}}
             </div>
             <!-- Add Arrows -->
             <div class="swiper-button-next"></div>
@@ -257,7 +289,7 @@
                 <div class="row">
                     @foreach ($services as $key => $item)
 
-                        <div class="{{ $key == 3 ? 'col-12' : 'col-lg-4  col-md-4 col-sm-6 col-12'}} p-0 col__background" style="background-image: url({{$item['url1']}})">
+                        <div class="col-lg-3  col-md-3 col-sm-6 col-6 p-0 col__background" style="background-image: url({{$item['url1']}})">
                             <div class="effect__l">
                                 <div class="circle__icon"><i class="fa {{$item['icon']}} icon__size" aria-hidden="true"></i></div>
                                 <h3>{{$item['title']}}</h3>
@@ -272,7 +304,7 @@
        {{-- <div class="line__all"></div>
        <div class="line__all__cuadrado"></div>
        <div class="line__all__small"></div> --}}
-       <div id="muteYouTubeVideoPlayer"></div>
+       {{-- <div id="muteYouTubeVideoPlayer"></div> --}}
     </section>
 @endsection
 
@@ -297,9 +329,9 @@
                 nextEl: '.swiper-container1 .swiper-button-next',
                 prevEl: '.swiper-container1 .swiper-button-prev',
             },
-        //   autoplay: {
-        //     delay: 5000,
-        //   },
+            autoplay: {
+                delay: 1500,
+            },
         });
         
     </script>

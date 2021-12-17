@@ -3,21 +3,30 @@ footer {
     color: $blanco;
     padding: 40px 0px;
     border-top: 3px solid $orange;
+    
+    .h3__footer {
+        font-size: 17px;
+        font-weight: bold;
+        font-family: 'Lexend Deca';
+    }
+    .fa_set{
+        font-size: 30px !important;
+    }
 
     .menu {
         
         .special {
             // display: flex;
-            align-items: center;
+            // align-items: center;
             justify-content: center;
-            text-align: center;
+            // text-align: center;
         }
         .special__set{
             text-align: center;
         }
         ul {
             list-style: none;
-            font-size: 13px;
+            font-size: 15px;
             font-family: $font-family-lexendDeca;
             font-weight: 300;
             margin: 0px;

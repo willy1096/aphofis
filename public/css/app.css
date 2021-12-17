@@ -11323,7 +11323,7 @@ body .loading .spinner {
   width: 40px;
   height: 40px;
   margin: 100px auto;
-  background-color: #ffffff;
+  background-color: #DFA112;
   border-radius: 100%;
   -webkit-animation: skscaleout 1s infinite ease-in-out;
           animation: skscaleout 1s infinite ease-in-out;
@@ -11524,6 +11524,8 @@ body .whatsapp-footer {
   right: 8px;
   bottom: 220px;
   z-index: 1;
+  display: flex;
+  flex-direction: column;
 }
 @media screen and (max-width: 992px) {
   body .whatsapp-footer {
@@ -11710,6 +11712,7 @@ nav.menu-escritorio {
 nav.menu-escritorio #collap-proyecto {
   position: absolute;
   color: #ffffff;
+  background-color: #000000;
   min-width: 150px;
 }
 nav.menu-escritorio #collap-proyecto a {
@@ -11795,17 +11798,23 @@ footer {
   padding: 40px 0px;
   border-top: 3px solid #DFA112;
 }
+footer .h3__footer {
+  font-size: 17px;
+  font-weight: bold;
+  font-family: "Lexend Deca";
+}
+footer .fa_set {
+  font-size: 30px !important;
+}
 footer .menu .special {
-  align-items: center;
   justify-content: center;
-  text-align: center;
 }
 footer .menu .special__set {
   text-align: center;
 }
 footer .menu ul {
   list-style: none;
-  font-size: 13px;
+  font-size: 15px;
   font-family: "Lexend Deca", sans-serif;
   font-weight: 300;
   margin: 0px;
