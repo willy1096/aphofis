@@ -368,10 +368,6 @@ Fuentes tipograficas
   font-size: 25px;
   color: #000000;
 }
-.home-services .effect__l:hover {
-  background-color: #0d0c0caf;
-  transition: background 2s ease;
-}
 .home-services .btn__service {
   padding: 2px 40px;
   width: -webkit-min-content;

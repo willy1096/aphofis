@@ -2,7 +2,7 @@
     <div class="container-fluid">
         <div class="row align-items-center">
             <div class="col-8">
-                <a href="">
+                <a href="{{route('app.index')}}">
                     <img src="{{ asset('img/logos/size/AphofisHorizontalBlanco.png') }}" alt="logo" class="logo">
                 </a>
             </div>
