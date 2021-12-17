@@ -38,7 +38,7 @@
            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 special mbutton">
                <h3 class="h3__footer">Contáctanos</h3>
                 <ul>
-                    <li><i class="fa fa-map-marker" aria-hidden="true"></i> Dirreción:</li>
+                    <li><i class="fa fa-map-marker" aria-hidden="true"></i> Dirección:</li>
                     <li> Calle 45 #211 x 50 y 52 Col. Benito Juárez Norte</li>
                     
                     <li><i class="fa fa-envelope-o" aria-hidden="true"></i> Correo:</li>

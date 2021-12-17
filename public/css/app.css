@@ -11354,6 +11354,7 @@ body .loading .spinner {
 }
 body .header-color {
   background: #000000 !important;
+  border-bottom: 3px solid #DFA112;
 }
 body .header-color {
   transition: background 1s ease;
@@ -11451,6 +11452,7 @@ body .p__info {
   font-weight: 300;
   letter-spacing: 1px;
   margin: 0px;
+  text-align: justify;
 }
 body .p__info__small {
   color: #000000;
@@ -11707,7 +11709,6 @@ nav.menu-escritorio {
   z-index: 500;
   padding-top: 30px;
   padding-bottom: 30px;
-  border-bottom: 3px solid #DFA112;
 }
 nav.menu-escritorio #collap-proyecto {
   position: absolute;

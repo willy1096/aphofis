@@ -20,6 +20,7 @@ body {
 
 	.header-color{
 		background: $negro!important;
+		border-bottom: 3px solid #DFA112;
 	}
 
 	.header-color{
@@ -131,6 +132,7 @@ body {
 		font-weight: 300;
 		letter-spacing: 1.0px;
 		margin: 0px;
+		text-align: justify;
 		// @media screen and (min-width: 992px) {
 		// 	font-size: 16px;
 		// }
