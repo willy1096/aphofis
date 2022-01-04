@@ -39,10 +39,11 @@
                         </div>
                     </form>
                 </div>
-                <div class="col-1"></div>
+                {{-- <div class="col-1"></div> --}}
                 <div class="col-12 col-xl-5 col-lg-10 col-md-12">
-                    <img src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321__340.png" alt="" class="img-fluid">
+                    {{-- <img src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321__340.png" alt="" class="img-fluid"> --}}
                     {{-- <div id="mapa"></div> --}}
+                    <iframe src="https://www.google.com/maps/d/embed?mid=1abCpnL2PTBQ7DvsLsHng_tb0I1VaWi4j&hl=es-419&ehbc=2E312F" width="100%" height="480"  scrolling="no" style="border:0" frameborder="0" seamless="seamless"></iframe>
                 </div>
             </div>
           </div>

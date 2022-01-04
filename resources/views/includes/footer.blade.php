@@ -60,8 +60,8 @@
        </div>
        <div class="row justify-content-center text-center pt-4">
             <div class="col-lg-6 col-md-6 col-12">
-                <img src="{{asset('img/WHATSAPP.png')}}" alt="logo" width="20px">
-                <p class="text__logo">Lorem ipsum dolor sit amet, consectetur.</p>
+                <img src="{{asset('img/Horizontal.png')}}" alt="logo" width="115px">
+                <p class="text__logo">una empresa de grupo tikal</p>
             </div>
        </div>
     </div>

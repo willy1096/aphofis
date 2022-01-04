@@ -5,6 +5,11 @@
     padding-top: 160px;
     padding-bottom: 80px;
 
+    @media screen and (min-width: 992px) {
+        .h2__tlo {
+            font-size: 50px !important;
+        }
+    }
 
 
     @media screen and (max-width: 768px) {
@@ -41,7 +46,7 @@
 
         .orange {
             border: none;
-            font-size: 16px;
+            font-size: 18px;
             background-color: $orange;
             padding: 8px 40px;
             font-weight: 700;

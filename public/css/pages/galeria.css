@@ -27,3 +27,29 @@ Fuentes tipograficas
   padding-left: 15px;
   font-size: 12px;
 }
+.galeria .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #dfa212ef;
+  padding: 0;
+  margin: 0;
+}
+.galeria .m__tblr:hover .overlay {
+  opacity: 0.8;
+}
+.galeria .text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}

@@ -3,6 +3,48 @@ Fuentes tipograficas
 -------------------------------------------------*/
 .servicios {
   box-sizing: border-box;
+  overflow: hidden;
+}
+@media screen and (min-width: 992px) {
+  .servicios .h2__tlo {
+    margin-bottom: 40px !important;
+    font-size: 35px !important;
+  }
+}
+.servicios .tlo_service {
+  font-size: 19px;
+  color: #AABCCA;
+  margin-bottom: 12px;
+}
+@media screen and (min-width: 992px) {
+  .servicios .tlo_service {
+    font-size: 22px;
+  }
+}
+.servicios .mt__tlo {
+  margin-top: 50px;
+}
+@media screen and (min-width: 992px) {
+  .servicios .mt__tlo {
+    margin-top: 0px;
+  }
+}
+.servicios .p_service {
+  font-size: 15px;
+  color: #9da0a3;
+}
+@media screen and (min-width: 992px) {
+  .servicios .p_service {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .servicios .mt_tl {
+    margin-top: 40px;
+  }
+  .servicios .mb_tl {
+    margin-bottom: 40px;
+  }
 }
 .servicios .background__efect {
   padding-top: 160px;
@@ -31,8 +73,23 @@ Fuentes tipograficas
   text-decoration: none;
   margin-bottom: 10px;
 }
-.servicios .mb__set {
-  margin-bottom: 90px;
+.servicios .separed__line {
+  background-color: #000000;
+  padding: 40px 0px;
+}
+@media screen and (min-width: 992px) {
+  .servicios .separed__line {
+    padding: 80px 0px;
+  }
+}
+.servicios .separed__line__two {
+  background-color: #2B2B2B;
+  padding: 40px 0px;
+}
+@media screen and (min-width: 992px) {
+  .servicios .separed__line__two {
+    padding: 80px 0px;
+  }
 }
 .servicios .card-header {
   background-color: #DFA112;
@@ -106,6 +163,9 @@ Fuentes tipograficas
   padding: 0px;
   margin: 0px;
 }
+.servicios .container-top {
+  margin-top: 60px;
+}
 .servicios-form .form-control__set {
   width: 100%;
   padding: 8px;
@@ -116,6 +176,9 @@ Fuentes tipograficas
 }
 .servicios-form .form__capitalize {
   text-transform: capitalize;
+}
+.servicios-form .form__capitalize_unic::first-letter {
+  text-transform: capitalize !important;
 }
 .servicios-form .form-control__set::-moz-placeholder {
   font-size: 14px;
@@ -151,6 +214,7 @@ Fuentes tipograficas
 .servicios-form label.label__form {
   color: #AABCCA !important;
   text-transform: capitalize;
+  font-size: 16px;
 }
 .servicios-form small.small__form {
   color: #AABCCA !important;
@@ -162,4 +226,9 @@ Fuentes tipograficas
 .servicios .text__info__p {
   font-size: 14px;
   color: #AABCCA;
+}
+.servicios .text__info__p .strong__orange {
+  color: #DFA112;
+  font-weight: bold;
+  font-size: 20px;
 }

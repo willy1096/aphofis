@@ -6,6 +6,11 @@ Fuentes tipograficas
   padding-top: 160px;
   padding-bottom: 80px;
 }
+@media screen and (min-width: 992px) {
+  .contacto .h2__tlo {
+    font-size: 50px !important;
+  }
+}
 @media screen and (max-width: 768px) {
   .contacto {
     padding-top: 100px;
@@ -41,7 +46,7 @@ Fuentes tipograficas
 }
 .contacto-form .orange {
   border: none;
-  font-size: 16px;
+  font-size: 18px;
   background-color: #DFA112;
   padding: 8px 40px;
   font-weight: 700;

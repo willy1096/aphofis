@@ -11391,7 +11391,7 @@ body .bg.bg-size-cover {
   background-size: cover;
 }
 body .h2__tlo {
-  font-size: 24px;
+  font-size: 24px !important;
   font-weight: 700;
   color: #DFA112;
   margin-bottom: 30px;
