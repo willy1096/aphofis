@@ -19,25 +19,25 @@
                       <div class="row flex flex-wrap justify-content-start "  data-aos="zoom-in-down" data-aos-duration="4000">
                         @for ($i = 1; $i < 97; $i++)
                             @if ($i%5 ==0)
-                                    <div class="col-12 col-lg-8 col-md-8 m-0 m__tblr">
+                                    <div class="col-12 col-lg-8 col-md-8 m-0 m__tblr" >
                                         <a data-fancybox="gallery" data-caption="Title {{$i}}" href="{{asset('img/pinturas/DBAU_page86_image'.$i.'.jpg')}}" class="a__background">
                                             <img class="imf-fluid gallery-img" src="{{asset('img/pinturas/DBAU_page86_image'.$i.'.jpg')}}" />
-                                           
+                                            <div class="position__absolute overlay">
+                                                <p class="caption__img text">Title {{$i}} </p>
+                                            </div>
                                         </a>
-                                        <div class="position__absolute overlay">
-                                            <p class="caption__img text">Title {{$i}} </p>
-                                        </div>
+                                        
                                         {{-- <p class="caption__img text">Title {{$i}} </p> --}}
                                     </div>
                             @else
                                 <div class="col-12 col-lg-4 col-md-4 m-0 m__tblr">
                                     <a data-fancybox="gallery" data-caption="Title {{$i}}" href="{{asset('img/pinturas/DBAU_page86_image'.$i.'.jpg')}}" class="a__background">
                                         <img class="imf-fluid gallery-img" src="{{asset('img/pinturas/DBAU_page86_image'.$i.'.jpg')}}" />
-                                        
+                                        <div class="position__absolute overlay">
+                                            <p class="caption__img text">Title {{$i}} </p>
+                                        </div>
                                     </a>
-                                    <div class="position__absolute overlay">
-                                        <p class="caption__img text">Title {{$i}} </p>
-                                    </div>
+                                   
                                     {{-- <p class="caption__img">Title {{$i}} </p> --}}
                                 </div>
                             @endif
